@@ -3,11 +3,140 @@
 <head>
     <title>Media Queries</title>
     <style>
+      body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .page1-heading{
+            text-align:center ;
+            font-size: 60px;
+        }
 
+        .know-more{
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            background-color:wheat ;
+            padding: 10px;
+            border: 2px solid #ff751a ;
+            cursor: pointer;
+
+        }
+        .header-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+
+        .celebration{
+            width: 500px;
+        }
+        .content{
+            width: 500px;
+            font-size: 20px;
+            text-align: justify;
+        }
+        .nav{
+            background-color: rgb(42, 121, 72);
+            display: flex;
+            align-items: center;
+            padding: 5px 40px;
+            color:white;
+            height: 90px;
+        }
+        .Birds-emoji{
+            font-size: 30px;
+        }
+        .Birds{
+            margin-left: 150px;
+            display: flex;
+            align-items:center;
+        }
+        .Birds-item{
+            margin-right: 30px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+        .Birds-item:hover{
+            color:black;
+        }
+        .Birds-icon{
+            height: 25px;
+            width: 25px;
+            margin-right: 5px;
+        }
     </style>
 </head>
 <body>
     <h1>Media Queries</h1>
-
+    <div class="nav">
+        <span class="Birds-emoji"><img src="./img/parrot.png" height="70px">Birds</span>
+       
+       <div class="Birds">
+           <span class="Birds-item">
+             <img src="./img/health.png" class="Birds-icon" alt="health">
+             <span class="menu-text">
+               Health
+               </span>
+           </span>
+           <span class="Birds-item">
+               <img src="./img/clening.png" class="Birds-icon" alt="clening">
+               <span class="menu-text">
+            clening
+           </span>
+           </span>
+           <span class="Birds-item">
+               <img src="./img/food-center.png" class="Birds-icon" alt="Food-Center">
+               <span class="menu-text">
+           Food-Center
+       </span>
+       </span>
+           <span class="Birds-item">
+               <img src="./img/purches&ladders.png" class="Birds-icon" alt="purches&ladders">
+               <span class="menu-text">
+               Purches & Ladders
+           </span>
+           </span>
+           <span class="Birds-item">
+               <img src="./img/birds-feeder-bowl.png" class="Birds-icon" alt="birds-feeder-bowl">
+               <span class="menu-text">
+               Birds Feeder Bowl
+           </span>
+           </span>
+           <span class="Birds-item">
+               <img src="./img/birds-food.png" class="Birds-icon" alt="birds food">
+               <span class="menu-text">
+               Birds Food
+           </span>
+           </span>
+       </div>
+       </div>
+   
+   
+   
+       <h1 class="page1-heading">
+          Pet Store 🦅🕊🦢🦚🐤
+       </h1>
+   
+       <div class="header-content">
+           <img src="./img/peacock.png" height="350px">
+         <div class="content">
+           <p>
+            Birds are a group of warm-blooded vertebrates constituting the class Aves, characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton. Birds are very special animals that have particular characteristics which are common amongst all of them. For instance, all of them have feathers, wings and two legs. Similarly, all birds lay eggs and are warm-blooded. They are very essential for our environment and exist in different breeds.
+            </p>
+           
+       </div>
+   </div>
+   
+       <a href="https://en.wikipedia.org/wiki/Book" target="_blank">
+      <img src="click.png" class="know-more" alt="Click here to know more">
+      </a>
+   
 </body>
 </html>
