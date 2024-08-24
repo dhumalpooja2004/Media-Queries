@@ -6,10 +6,13 @@
       body{
             margin: 0px;
             padding: 0px;
+            background-color: #fffffe;
         }
         .page1-heading{
             text-align:center ;
             font-size: 60px;
+            color:#00214d;
+            
         }
 
         .know-more{
@@ -40,6 +43,7 @@
             width: 500px;
             font-size: 20px;
             text-align: justify;
+            color: #1b2d45;
         }
         .nav{
             background-color: rgb(42, 121, 72);
@@ -71,6 +75,22 @@
             width: 25px;
             margin-right: 5px;
         }
+         /* Table device */
+    @media screen and (min-width:501px) and (max-width:769px) {
+        .page1-heading{
+            font-size: 45px;
+        }
+        .know-more{
+            height: 60px;
+            width:60px ;
+        }
+        
+    }
+
+    /* Desktop Device */
+    @media screen and (min-width:769px){
+
+    }
     </style>
 </head>
 <body>
@@ -134,8 +154,8 @@
        </div>
    </div>
    
-       <a href="https://en.wikipedia.org/wiki/Book" target="_blank">
-      <img src="click.png" class="know-more" alt="Click here to know more">
+       <a href="https://en.wikipedia.org/wiki/Bird" target="_blank">
+      <img src="./img/click-me.png" class="know-more" alt="know more">
       </a>
    
 </body>
